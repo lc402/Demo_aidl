@@ -38,5 +38,10 @@ public class MyAidlService extends Service {
         public void test() throws RemoteException {
 
         }
+
+        @Override
+        public void registerCallback(IClientInterface IClient) throws RemoteException {
+
+        }
     };
 }
